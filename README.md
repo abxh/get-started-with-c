@@ -131,7 +131,7 @@ int* p = &a;
 ```
 With one caveat. If you try to declare multiple pointers in the same line, do note:
 ```c
-int* a, b; // a is a int pointer. b is not.
+int* a, b; // a is a int pointer. b is int.
 ```
 
 And if you view pointers as `pointer to <type>`, then you can use right-aligned pointers. Pointers store an address and don't really work
@@ -144,7 +144,7 @@ int *p = &a;
 ```
 And it's clear what is meant here:
 ```c
-int *a, *b; // a is a pointer to int, b is pointer to int.
+int *a, *b; // a is a pointer to int. b is pointer to int.
 ```
 
 I myself use left-aligned pointers. I may be biased in my explanation. Do as you wish, and use the most helpful convention.
