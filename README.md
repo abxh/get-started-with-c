@@ -144,7 +144,7 @@ int *p = &a;
 ```
 And it's clear what is meant here:
 ```c
-int *a, *b; // a is a pointer to int. b is pointer to int.
+int *a, *b; // a is a pointer to int. b is a pointer to int.
 ```
 
 I myself use left-aligned pointers. I may be biased in my explanation. Do as you wish, and use the most helpful convention.
