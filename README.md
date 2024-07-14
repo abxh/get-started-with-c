@@ -134,11 +134,17 @@ With one caveat. If you try to declare multiple pointers in the same line, do no
 int* a, b; // a is a poiner. b is not.
 ```
 
-And if you view pointers as `pointer to <type>`, then you can use right-aligned pointers. Pointers store an address:
+And if you view pointers as `pointer to <type>`, then you can use right-aligned pointers. Pointers store an address and don't really work
+like usual "types" in C, even if they are helpful to be think that way. If you do pointer arithmatic, the compiler does work with different
+offsets depending on what the points point to, but all pointers stores addresses, regardless of which "type" they point to.
 ```c
 int a = 1;
 int *p = &a;
 *p = 2;
+```
+And it's clear what is meant here:
+```c
+int *a, *b; // a is a poiner, b is pointer.
 ```
 
 I myself use left-aligned pointers. I may be biased in my explanation. Do as you wish, and use the most helpful convention.
