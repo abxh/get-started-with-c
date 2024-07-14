@@ -129,7 +129,7 @@ int a = 1;
 int* p = &a;
 *p = 2;
 ```
-With one caveat. If you declare multiple pointers in the same line, do note:
+With one caveat. If you try to declare multiple pointers in the same line, do note:
 ```c
 int* a, b; // a is a poiner. b is not.
 ```
