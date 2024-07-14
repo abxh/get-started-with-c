@@ -49,11 +49,11 @@ clang -fsanitize=undefined -fsanitize=address
 ```
 You may need to install extra packages for them to work, I found. In particular look for packages with keywords `ubsan` and `libsan`.
 
-For other compilers, you are on your own. Sanitizers aren't neccesary, but useful.
+For other compilers, you are on your own. Sanitizers aren't neccessary, but useful.
 
 ### Stack tracing and debugging
 
-In particular get to know about tools like `gdb`, and tools like `strace´ and `ltrace`.
+In particular get to know about tools like `gdb`, and tools like `strace` and `ltrace`.
 
 `gdb` could be a little intimidating to use, so here is a helpful guide by comment @AlphaOmegaProgrammer wrote moons ago:
 ```https://godbolt.org/
@@ -154,4 +154,4 @@ And yes, I found myself learning pointers much easier, when I grokked the C synt
 - [Turing complete](https://store.steampowered.com/app/1444480/Turing_Complete/): A game to have fun and get a good idea of
 how a basic CPU works. Worth it.
 - Data structures in C. Stacks, queues, dynamic arrays, hashmaps. Linked version and array versions.
-- Use the aformentioned data structures in problems.
+- Use the aformentioned data structures in DSA problems / projects in C.
