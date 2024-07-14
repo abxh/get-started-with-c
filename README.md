@@ -5,7 +5,7 @@ but I will put up some personal recommendations. However in particular for C, kn
 learning experience so much more productive and less mentally taxing.
 
 I will assume you have setup [WSL for windows](https://learn.microsoft.com/en-us/windows/wsl/install),
-[homebrew for macos](https://brew.sh/) or have a package manager in a linux system for installing the named packages.
+[homebrew for macos](https://brew.sh/) or have a package manager in a linux system for installing the named software.
 
 ## Tools
 ### Compiler Warnings
