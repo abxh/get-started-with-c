@@ -154,6 +154,7 @@ And yes, I found myself learning pointers much easier, when I grokked the C synt
 
 - Read K & R - the c programming language: The OG book. One which everyone recommmends.
 - Read Effective C: A more modern book. Few exercises. Nice to read. Latest best practices.
+- Read the [0th chapter](https://www.learncpp.com/) of learncpp.com. Just about linkers, header files and compilation in genernal. Very useful knowledge when starting out.
 - [Turing complete](https://store.steampowered.com/app/1444480/Turing_Complete/): A game to have fun and get a good idea of
 how a basic CPU works. Worth it.
 - Data structures in C. Stacks, queues, dynamic arrays, hashmaps. Linked version and array versions.
