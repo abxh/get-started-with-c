@@ -135,7 +135,7 @@ int* a, b; // a is a int pointer. b is int.
 ```
 
 And if you view pointers as `pointer to <type>`, then you can use right-aligned pointers. Pointers store an address and don't really work
-like usual "types" in C, even if they are helpful to be think that way. If you do pointer arithmatic, the compiler does work with different
+like usual "types" in C, even if they are helpful to think that way. If you do pointer arithmatic, the compiler does work with different
 offsets depending on what the pointer point to, but all pointers stores addresses, regardless of which "type" they point to. So there is no
 harm in writing:
 ```c
