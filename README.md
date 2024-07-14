@@ -1,7 +1,5 @@
 # get-started-with-c
 
-## Tools
-
 There are advice out there for which resouces to choose, what to learn, and etc. You can research that online,
 but I will put up some personal recommendations. However in particular for C, knowing your tools can make your
 learning experience so much more productive and less mentally taxing.
@@ -9,6 +7,7 @@ learning experience so much more productive and less mentally taxing.
 I will assume you have setup [WSL for windows](https://learn.microsoft.com/en-us/windows/wsl/install),
 [homebrew for macos](https://brew.sh/) or have a package manager in a linux system for installing the named packages.
 
+## Tools
 ### Compiler Warnings
 
 Yes. This is not a tool. But it's a thing I set up later, but which I could have benifitted from doing it from the start.
