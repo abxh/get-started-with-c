@@ -54,7 +54,7 @@ For other compilers, you are on your own. Sanitizers aren't neccessary, but usef
 
 In particular get to know about tools like `gdb`, and tools like `strace` and `ltrace`.
 
-`gdb` could be a little intimidating to use, so here is a helpful guide by comment @AlphaOmegaProgrammer wrote moons ago:
+`gdb` could be a little intimidating to use, so here is a helpful guide by comment a discord friend of mine wrote moons ago:
 ```https://godbolt.org/
 Try compiling with -g to enable debug symbols, then run it under gdb with gdb ./program followed by run.
 Then when it crashes, type bt to get a backtrace, and you can use frame 0 or whatever number to change what
